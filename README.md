@@ -64,7 +64,7 @@ I am building this app to fulfill the requirements for project one of General As
 
 ---
 ### Screenshots
-![screenGrab 1](./screenGrab1.jpg)
+![screenGrab 1](./screenGrab1.png)
 
 ---
 ### User Stories & Wireframes
@@ -74,7 +74,7 @@ The planning materials used to build this app.
 * There are buttons to **Restart Game** AND **Enter Players Name** 
 
 ### Wireframes
-![wireFrame 1](./wireFrame.jpg)
+![wireFrame 1](./wireFrame.jpeg)
 
 ---
 ### Technologies & Code Snippets
