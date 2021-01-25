@@ -56,30 +56,27 @@ h1 - h6 head tags
 
 Example:
 
-# Project Title
-A blurb about your project; what is it?
+# Project One: Connect Four
+A fun 2 player game where players place tokens in a grid one after another with the goal of connecting four tokens in a row.
 
 ### Motivation
-A short description about why you built this app.
+I am building this app to fulfill the requirements for project one of General Assembly SE Immersive.
 
 ---
 ### Screenshots
-screen captures of your app
+![screenGrab 1](./screenGrab1.jpg)
 
 ---
 ### User Stories & Wireframes
 The planning materials used to build this app.
-* High-level user stories.
-* image files of wireframes
+* This is a two player game.  Player one should select a column and the token should drop to the bottom and land in the last free space.  Player two will then be prompted to drop the token. 
+* once either player has four tokens in a row a positive message will display saying who one. 
+* There are buttons to **Restart Game** AND **Enter Players Name** 
 
-![wireframe 1](./assets/wirefram3.jpg)
-
-![wireframe 2](./assets/wireframe-example-1.png)
 
 ---
 ### Technologies & Code Snippets
-* list of technologies
-* screen captures of your code
+* The entire game can be made in javaScript, CSS, and HTML
 
 ---
 ### Credits
