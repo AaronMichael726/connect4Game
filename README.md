@@ -73,6 +73,8 @@ The planning materials used to build this app.
 * once either player has four tokens in a row a positive message will display saying who one. 
 * There are buttons to **Restart Game** AND **Enter Players Name** 
 
+### Wireframes
+![wireFrame 1](./wireFrame.jpg)
 
 ---
 ### Technologies & Code Snippets
