@@ -150,7 +150,7 @@ const checkHorizontal = (cell) => {
     }
 
     let isWinningCombo = checkWinningCells(winningCells)
-    if (isWinningCombo) return
+    return isWinningCombo
 }
 
 const checkVertical = (cell) => {
@@ -175,7 +175,7 @@ const checkVertical = (cell) => {
     }
 
     let isWinningCombo = checkWinningCells(winningCells)
-    if (isWinningCombo) return
+    return isWinningCombo
 }
 
 const checkPosDiag = (cell) => {
@@ -212,7 +212,7 @@ const checkPosDiag = (cell) => {
     }
 
     let isWinningCombo = checkWinningCells(winningCells)
-    if (isWinningCombo) return
+    return isWinningCombo
 
 }
 
@@ -252,7 +252,7 @@ const checkNegDiag = (cell) => {
     }
 
     let isWinningCombo = checkWinningCells(winningCells)
-    if (isWinningCombo) return
+    return isWinningCombo
 
 }
 
@@ -261,10 +261,10 @@ const checkNegDiag = (cell) => {
 const checkStatusOfGame = (cell) => {
 
     
-    //checkVertical(cell)
-    checkHorizontal(cell)
-    checkPosDiag(cell)
-    checkNegDiag(cell)
+    if (checkVertical(cell)) return
+    if (checkHorizontal(cell)) return
+    if (checkPosDiag(cell)) return
+    if (checkNegDiag(cell)) return
 
     // check to see if there is a tie
     const rowsWithoutTop = rows.slice(0,6)
