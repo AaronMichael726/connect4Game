@@ -54,7 +54,6 @@ h1 - h6 head tags
 ---
 ## Project READMEs at ![GA logo](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)
 
-Example:
 
 # Project One: Connect Four
 A fun 2 player game where players place tokens in a grid one after another with the goal of connecting four tokens in a row.
@@ -93,4 +92,6 @@ I relied on "Code with Ania Kubów and her turtorial on Building a Simple Connec
 ---
 
 ### Future development
-What are the next steps for the project? How will you continue to evolve it?
+Connect 4 can be won using various algorithms and statistical models.  I would love to create a computer that can win the game any time using the work completed by mathematicians.
+
+I would like to continue to hunt for ways to minimize my run time.  I know that to find a negDiag match we still have to fist check all other matches. How can I train a computer to find where to only hunt for the "most likely" match in the game?  How can I add logic to only check for matches after there are a mathematically sufficient number of moves for a match to exist?
