@@ -6,7 +6,7 @@
   
   body {
     align-items: center;
-    background: url('starBackground.jpg');
+    background: url('imgurBackground.jpg');
     display: flex;
     flex-direction: column;
     font-family: sans-serif;
@@ -27,7 +27,7 @@
     height: 700px;
     margin: 10px 0 25px;
     width: 700px;
-    opacity: .5;
+    opacity: 1;
   }
   
   .cell {
@@ -79,7 +79,7 @@
   }
   
   .cell.row-top {
-    background: white;
+    background: none;
   }
   
   .cell.row-top::after {
@@ -89,6 +89,7 @@
   .cell.row-top.red::after {
     background: red;
     border: 3px solid black;
+
   }
   
   .cell.row-top.yellow::after {
@@ -162,4 +163,16 @@
   
   .left-border.bottom-border {
     border-radius: 0 0 0 10px;
+  }
+
+  label {
+    color: white;
+  }
+
+  #playerOne { 
+    color: black;
+  }
+
+  #playerTwo {
+    color: black;
   }

@@ -100,6 +100,9 @@ const getColorOfCell = (cell) => {
 }
 
 const checkWinningCells = (cells) => {
+    let playerOne = document.getElementById('playerOne')
+    let playerTwo = document.getElementById('playerTwo')
+
     if (cells.length < 4) return 
 
     gameIsLive = false;
@@ -107,7 +110,7 @@ const checkWinningCells = (cells) => {
         cell.classList.add('win')
     }
 
-    statusSpan.textContent = `${yellowIsNext ? 'Yellow' : 'red'} has won!`
+    statusSpan.textContent = `${yellowIsNext ? playerOne.value : playerTwo.value} has won!`
 
     return true
 }
