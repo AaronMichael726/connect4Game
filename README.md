@@ -89,6 +89,8 @@ The planning materials used to build this app.
 ### Credits
 I relied on "Code with Ania Kubów and her turtorial on Building a Simple Connect 4 Game: https://www.youtube.com/watch?v=dBlSiGOFjUY
 
+When I got stuck on design I referred to JustinKim420 and his youtube Channel for advice. https://www.youtube.com/user/Justinkim420
+
 ---
 
 ### Future development
