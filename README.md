@@ -82,7 +82,7 @@ The planning materials used to build this app.
 
 ---
 ### Credits
-Give credit to any `codepen` that inspired you, `medium` article that helped you, or `stackoverflow` that pointed you in the right direction.
+I relied on "Code with Ania Kubów and her turtorial on Building a Simple Connect 4 Game: https://www.youtube.com/watch?v=dBlSiGOFjUY
 
 ---
 
