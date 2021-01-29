@@ -80,6 +80,12 @@ The planning materials used to build this app.
 ### Technologies & Code Snippets
 * The entire game can be made in javaScript, CSS, and HTML
 
+* One of my biggest weaknesses was understanding how to create an application that maintained a low run time while containing static divs. Watching "Code with Ania Kubów" I got the idea to update the class and ids inside the divs so that I could throw each div into a larger array that would allow me to loop through and shorten my run time.
+![htmlSnippet](./htmlSnip.png)
+
+* A goal with any code is to shorten the run time.  Originally I had one large checkStatusOfGame function that held all the code for each of these check functions.  However, even after a win the code would still have to run to check for an additional match.  First, I pulled each function out of the checkStatusOfGame function.  Then, I added a return statement at the end of each function to stop the function from running too many times.
+![jsSnippet](./checkStatusSnip.png)
+
 ---
 ### Credits
 I relied on "Code with Ania Kubów and her turtorial on Building a Simple Connect 4 Game: https://www.youtube.com/watch?v=dBlSiGOFjUY
